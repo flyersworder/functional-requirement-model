@@ -29,14 +29,15 @@ In the end, sort capacity, buffer size, and the number of doors are used for hub
     * Door calculation
 
 
-<sup>1</sup>:would be nice if we can have a first check to see whether the schedule complies to the business rules and provide some warnings/alerts; also, schedules and destination distribution can come in different formats 
+<sup>1</sup>would be nice if we can have a first check to see whether the schedule complies to the business rules and provide some warnings/alerts; also, schedules and destination distribution can come in different formats 
 
 ## About this tool
 
 ### Background
 
-Current FRM function is excel based, it is error prone and slow in caculation.
-We aim to convert it into a self stand python based tool in order to improve work efficiency.
+Current FRM function is excel based, and it is error prone and slow in caculation.
+We aim to convert it into a self stand python based tool in order to improve work efficiency and robustness.
+Ultimately, we want to design a GUI and package the module as an executable file so that it can be easily distributed.
 
 ### Structure of code
 
