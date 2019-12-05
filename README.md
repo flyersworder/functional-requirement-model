@@ -2,8 +2,8 @@
 
 ## About FRM
 
-FRM is used in any hub or depot design (or redesign).
-For the road transit hubs (RTHs), the inputs are truck, trailer, or any vehicle schedules, information including vehicle type, capacity, material type**, and arrival and departure times.
+FRM can be used in any hub or depot design (or redesign).
+For the road transit hubs (RTHs), the inputs are truck, trailer, or any vehicle schedules, information including vehicle type, capacity, material type (most noticeably conveyables that can be processed by a sorter and non-conveyables that are usually handled by forklifts), and arrival and departure times.
 
 In the end, sort capacity, buffer size, and the number of doors are used for hub and depot design. Because the parameters are different per material type, the calculations are usually separate. Here is an overview of the whole process.
 
@@ -16,7 +16,7 @@ In the end, sort capacity, buffer size, and the number of doors are used for hub
 
 2. Steps
 
-    * Schedule clean-up[^anote]
+    * Schedule clean-up<sup>1</sup>
     * Volume availability (per 15 minutes or other time units)
     * Destination spread (time unit volume × destination distribution)
     * Sort simulation (linear programming, optimization)
@@ -29,14 +29,14 @@ In the end, sort capacity, buffer size, and the number of doors are used for hub
     * Door calculation
 
 
-[^anote]:would be nice if we can have a first check to see whether the schedule makes sense and provide some warnings/alerts; also, schedules and destination distribution can come in different formats **the most distinguishing material type is conveyables (that can be processed with a sorter, i.e., autosort) and non-conveyables
+<sup>1</sup>:would be nice if we can have a first check to see whether the schedule complies to the business rules and provide some warnings/alerts; also, schedules and destination distribution can come in different formats 
 
 ## About this tool
 
 ### Background
 
 Current FRM function is excel based, it is error prone and slow in caculation.
-Qing Ye and Dewei Zhai work together to convert it into a self stand python based tool, in order to improve work efficiency.
+We aim to convert it into a self stand python based tool in order to improve work efficiency.
 
 ### Structure of code
 
