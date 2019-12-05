@@ -1,0 +1,5 @@
+pyyaml
+
+[test]
+pylint
+pytest

@@ -1,0 +1,8 @@
+openpyxl
+pandas
+numpy
+pyyaml
+fuzzywuzzy
+python-Levenshtein
+pulp
+plotly

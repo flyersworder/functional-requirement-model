@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: frm-model
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://bitbucket.org/zhaidewei/frm/src/master/
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7.1
+Provides-Extra: test
